@@ -1,0 +1,93 @@
+/*All*/
+html, body {
+    height: 100%;
+    width: 100%;
+    background-image: url("../images/milky-way.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+}
+
+
+body > * {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+
+h1, h2, h3 {line-height: 40px;}
+
+
+/* For larger devices: */
+@media only screen and (min-device-width: auto) {
+    body { 
+      background-image: url("../images/milky-wayjpg"); 
+    }
+  }
+
+
+/*Header*/
+header {
+    box-sizing: border-box;
+    height: 100px;
+    position: fixed;
+    width: 100%;
+    top: 5%;
+    font-size: 2.5em;
+}
+
+/*Article*/
+
+article {
+    position: fixed;
+    width: 100%;
+    top: 30%;
+    bottom: 60%;
+    font-size: 1.5em;
+    align-items: center;
+}
+
+
+/*Footer*/
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 7.5%;
+
+}
+
+.inline-block {display: inline-block;}
+
+
+/* social icons */
+a.codepen,
+a.linkedin,
+a.github,
+a.twitter
+ {
+	font-size: 1.5em;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-left: 15px;
+	text-align: center;
+	display: inline-block;
+}
+
+.codepen i:hover,
+.linkedin i:hover,
+.github i:hover,
+.twitter i:hover{
+     /*color: #580660;*/
+     color: rgb(80, 112, 80);
+}
+
+.codepen a:visited,
+.linkedin a:visited,
+.github a:visited,
+.twitter a:visited{
+    color: #580660;
+}
